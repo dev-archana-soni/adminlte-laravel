@@ -9,7 +9,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 **laravel new adminlte-laravel**
 **cd adminlte-laravel**
 
-Need to created databse from MySQL same like from .ENV file. Before migrate fixed too length error Inside AppServiceProvider need to add Schema like 
+Need to create database from MySQL same like from .ENV file. Before migrate fixed too length error Inside AppServiceProvider need to add Schema like 
 
 **use Illuminate\Support\Facades\Schema;**
 
@@ -29,7 +29,7 @@ For Integrating Auth Templates
 
 **php artisan ui adminlte --auth**
 
-Last via <a href="https://laravel.com/docs/8.x/mix">Laravel Mix</a> need to tun or **npm install && npm run dev** or **npm install**
+Last via <a href="https://laravel.com/docs/8.x/mix">Laravel Mix</a> need to run **npm install && npm run dev** or **npm install**
 **npm run dev**
 
 if will get compiled successfully screen then run if not then first run **npm run production**
